@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Jayesh Prajapati Portfolio</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500..800&family=Manrope:wght@400..700&family=JetBrains+Mono:wght@400..600&display=swap">
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="nav">
+    <div class="nav-in">
+      <a class="logo" href="#top" aria-label="Jayesh Prajapati, home"><i>jp</i>jayesh.</a>
+      <nav class="nav-links" aria-label="Sections">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+      </nav>
+      <button class="tbtn" id="theme" type="button" aria-label="Switch colour theme">
+        <svg class="ico-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+        <svg class="ico-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+      </button>
+      <a class="btn pri" href="#contact">Let's talk ↗</a>
+    </div>
+  </header>
+
+  <main class="wrap" id="top">
+    <div class="hero">
+      <div class="glow" id="glow"></div>
+      <div class="hero-grid">
+        <div>
+          <span class="pill"><span class="dot"></span>Available for opportunities</span>
+          <p class="hello">Hello, I'm</p>
+          <h1>Jayesh<br><span class="ol">Prajapati.</span></h1>
+          <p class="role">Python <em>&amp;</em> Django Developer</p>
+          <p class="lede">I build practical web applications with clean interfaces and reliable backend logic. I enjoy turning ideas into useful digital experiences and continuously learning new technologies.</p>
+          <div class="cta">
+            <a class="btn pri" href="#projects">Explore my work ↗</a>
+            <a class="btn" href="#contact">Get in touch</a>
+          </div>
+          <div class="social">
+            <a href="https://github.com/jayeshprajapati07" target="_blank" rel="noopener">GitHub ↗</a>
+            <a href="https://www.linkedin.com/in/jayesh-prajapati" target="_blank" rel="noopener">LinkedIn ↗</a>
+          </div>
+        </div>
+        <div class="term" aria-label="Terminal showing a Django shell session about Jayesh">
+          <div class="term-bar"><i></i><i></i><i></i><span>jayesh@portfolio ~ django shell</span></div>
+          <div class="term-body" id="term">
+            <span class="tl" data-cmd="1"><span class="ps">$ </span><span class="tx">python manage.py shell</span></span>
+            <span class="tl c">Python console loaded. Models imported.</span>
+            <span class="tl" data-cmd="1"><span class="ps">&gt;&gt;&gt; </span><span class="tx">dev = Developer.objects.get(name="Jayesh")</span></span>
+            <span class="tl" data-cmd="1"><span class="ps">&gt;&gt;&gt; </span><span class="tx">dev.stack</span></span>
+            <span class="tl s">['Python', 'Django', 'HTML', 'CSS', 'JavaScript']</span>
+            <span class="tl" data-cmd="1"><span class="ps">&gt;&gt;&gt; </span><span class="tx">dev.studying</span></span>
+            <span class="tl s">'Computer Science Engineering'</span>
+            <span class="tl" data-cmd="1"><span class="ps">&gt;&gt;&gt; </span><span class="tx">dev.status</span></span>
+            <span class="tl k">'Available for opportunities'</span>
+            <span class="tl"><span class="ps">&gt;&gt;&gt; </span><span class="caret"></span></span>
+          </div>
+        </div>
+      </div>
+      <div class="meta rv">
+        <div><span class="label">Focus</span><strong>Web Development</strong></div>
+        <div><span class="label">Core stack</span><strong>Python · Django</strong></div>
+        <div><span class="label">Studying</span><strong>Silver Oak University</strong></div>
+      </div>
+    </div>
+  </main>
+
+  <div class="marq" aria-hidden="true">
+    <div class="track">
+      <span>Python</span><span>Django</span><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Databases</span><span>Debugging</span><span>Testing</span><span>Teamwork</span>
+      <span>Python</span><span>Django</span><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Databases</span><span>Debugging</span><span>Testing</span><span>Teamwork</span>
+    </div>
+  </div>
+
+  <main class="wrap">
+    <section id="about">
+      <div class="sh rv"><span class="label"><b>/about</b> &nbsp;A little about what I do</span><h2>Useful web apps, built end to end.</h2></div>
+      <div class="about">
+        <div class="about-copy rv">
+          <p>I'm a motivated Computer Science Engineering undergraduate with a passion for building useful web applications.</p>
+          <p>My hands-on experience includes backend development with Python and Django, connecting user-friendly interfaces with application logic and databases. I enjoy collaborating, solving problems, and using modern tools to work more efficiently.</p>
+        </div>
+        <div class="fn">
+          <div class="fn-card rv"><code>build()</code><p>Developing practical, end-to-end web solutions.</p></div>
+          <div class="fn-card rv"><code>improve()</code><p>Learning continuously and refining my development workflow.</p></div>
+          <div class="fn-card rv"><code>collaborate()</code><p>Working with others to turn requirements into working products.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills">
+      <div class="sh rv"><span class="label"><b>/skills</b> &nbsp;Tools I work with</span><h2>A growing toolkit for shipping web apps.</h2></div>
+      <div class="skills">
+        <div class="sk rv"><div class="sk-top"><div class="sk-ic">Py</div><h3>Python</h3></div><p>Backend logic and application development.</p><div class="bar"><i style="--w:85%"></i></div></div>
+        <div class="sk rv"><div class="sk-top"><div class="sk-ic">Dj</div><h3>Django</h3></div><p>Web applications and server-side development.</p><div class="bar"><i style="--w:80%"></i></div></div>
+        <div class="sk rv"><div class="sk-top"><div class="sk-ic">&lt;/&gt;</div><h3>HTML</h3></div><p>Semantic page structure.</p><div class="bar"><i style="--w:85%"></i></div></div>
+        <div class="sk rv"><div class="sk-top"><div class="sk-ic">#</div><h3>CSS</h3></div><p>Responsive layouts and styling.</p><div class="bar"><i style="--w:75%"></i></div></div>
+        <div class="sk rv"><div class="sk-top"><div class="sk-ic">JS</div><h3>JavaScript</h3></div><p>Interactive frontend experiences.</p><div class="bar"><i style="--w:65%"></i></div></div>
+        <div class="sk rv"><div class="sk-top"><div class="sk-ic">DB</div><h3>Databases</h3></div><p>Working with application data.</p><div class="bar"><i style="--w:70%"></i></div></div>
+      </div>
+      <p class="fine"># Skill indicators are visual estimates, not formal test scores.</p>
+    </section>
+
+    <section id="experience">
+      <div class="sh rv"><span class="label"><b>/experience</b> &nbsp;Experience &amp; education</span><h2>Where I've grown.</h2></div>
+      <div class="tl-wrap">
+        <div class="ev rv">
+          <div class="ev-card">
+            <div class="ev-head"><span class="label"><b>Internship</b></span><span class="label">Dec 2025 — Apr 2026</span></div>
+            <h3>Web Development Intern</h3>
+            <p class="org">Techmicra IT Solutions</p>
+            <p class="d">Worked on backend development using Python and Django. Contributed to a Loan Credit System web application, integrated frontend interfaces with Django endpoints and databases, and collaborated with senior developers on coding, debugging and testing.</p>
+            <div class="tags"><span class="tag">Python</span><span class="tag">Django</span><span class="tag">Web Development</span></div>
+          </div>
+        </div>
+        <div class="ev rv">
+          <div class="ev-card">
+            <div class="ev-head"><span class="label"><b>Education</b></span><span class="label">Currently studying</span></div>
+            <h3>Computer Science Engineering</h3>
+            <p class="org">Silver Oak University</p>
+            <p class="d">Undergraduate studies with a focus on computing, software development and practical project work.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <div class="sh rv"><span class="label"><b>/projects</b> &nbsp;Selected work</span><h2>Projects built to solve problems.</h2><p>A selection of projects from my development journey. The calculator and the parking lot below are live, so try them.</p></div>
+
+      <article class="proj rv">
+        <div>
+          <span class="status">Web application</span>
+          <h3>Loan Credit System</h3>
+          <p class="pd">A web-based portal concept designed to streamline credit evaluation and loan processing, including loan applications, status tracking and EMI-related workflows.</p>
+          <div class="tags"><span class="tag">Python</span><span class="tag">Django</span></div>
+          <div class="cta"><a class="btn" href="https://github.com/jayeshprajapati07" target="_blank" rel="noopener">See my GitHub ↗</a></div>
+        </div>
+        <div class="pv">
+          <div class="win">
+            <div class="win-bar"><i></i><i></i><i></i><span>Instant Loans · EMI estimator</span></div>
+            <div class="win-body">
+              <div class="emi-top">
+                <div><span class="label">Monthly EMI</span><div class="emi-big" id="emi">₹ 2,221</div></div>
+                <span class="badge">Application · In review</span>
+              </div>
+              <div class="rng"><div class="rng-h"><label for="amt">Loan amount</label><b id="amtv">₹ 25,000</b></div><input id="amt" type="range" min="5000" max="500000" step="1000" value="25000"></div>
+              <div class="rng"><div class="rng-h"><label for="rate">Interest rate (p.a.)</label><b id="ratev">12%</b></div><input id="rate" type="range" min="6" max="36" step="0.5" value="12"></div>
+              <div class="rng"><div class="rng-h"><label for="ten">Tenure</label><b id="tenv">12 months</b></div><input id="ten" type="range" min="3" max="60" step="1" value="12"></div>
+              <div class="split">
+                <div class="donut" id="donut"></div>
+                <div class="legend">
+                  <div><i></i>Principal <b id="pr">₹ 25,000</b></div>
+                  <div><i></i>Interest <b id="int">₹ 1,656</b></div>
+                  <div>Total payable <b id="tot">₹ 26,656</b></div>
+                </div>
+              </div>
+              <p class="ex"># Example figures. The rate is illustrative, not a lender's offer.</p>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article class="proj flip rv">
+        <div>
+          <span class="status warm">Booking platform · Concept</span>
+          <h3>Just Park</h3>
+          <p class="pd">A parking-booking website concept with location search, date and time selection, user login and a planned backend integration.</p>
+          <div class="tags"><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span></div>
+          <div class="cta"><a class="btn" href="https://github.com/jayeshprajapati07" target="_blank" rel="noopener">See my GitHub ↗</a></div>
+        </div>
+        <div class="pv">
+          <div class="win">
+            <div class="win-bar"><i></i><i></i><i></i><span>Find your parking spot</span></div>
+            <div class="win-body">
+              <div class="srch">
+                <div class="fld"><small>Location</small>Ahmedabad, Gujarat</div>
+                <div class="fld"><small>Date &amp; time</small>Today · 6:00 PM</div>
+              </div>
+              <div class="lot" id="lot" role="group" aria-label="Parking slots"></div>
+              <div class="pick"><span>Selected slot: <b id="picked">none yet</b></span><span class="c" style="color:var(--muted)">Striped slots are taken</span></div>
+              <p class="ex"># Concept screen with sample slots. Backend integration is planned.</p>
+            </div>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <div class="contact rv" id="contact">
+      <span class="label"><b>/contact</b> &nbsp;Have an idea?</span>
+      <h2 style="margin-top:14px">Let's <em>build</em> it.</h2>
+      <p class="lede">I'm open to connecting, learning and exploring opportunities in web development.</p>
+      <div class="links">
+        <div class="lk"><span class="label">Email</span><span class="v" id="mail">jayeshprajapati.2010p@gmail.com</span><button class="copy" id="copy" type="button">Copy address</button></div>
+        <a class="lk" href="https://github.com/jayeshprajapati07" target="_blank" rel="noopener"><span class="label">GitHub</span><span class="v">github.com/jayeshprajapati07 ↗</span></a>
+        <a class="lk" href="https://www.linkedin.com/in/jayesh-prajapati" target="_blank" rel="noopener"><span class="label">LinkedIn</span><span class="v">jayesh-prajapati ↗</span></a>
+      </div>
+    </div>
+
+    <footer><b>jayesh.</b><span>Designed &amp; built with care. © Jayesh Prajapati</span></footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
